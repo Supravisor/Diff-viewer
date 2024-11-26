@@ -25,3 +25,7 @@ textarea {
 #original {
   color: blue;
 }
+
+#div-original, #original {
+  background: transparent;
+}
