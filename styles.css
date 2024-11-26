@@ -6,3 +6,9 @@ body {
 textarea {
   height: 40vh;
 }
+
+#div-compare, #div-original {
+  width: 90vw;
+  position: absolute;
+  top: 4em;
+}
