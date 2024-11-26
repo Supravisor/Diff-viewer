@@ -12,3 +12,8 @@ textarea {
   position: absolute;
   top: 4em;
 }
+
+#compare, #original {
+  font-size: 1.5em;
+  padding: 20px;
+}
