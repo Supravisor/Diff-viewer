@@ -1,9 +1,9 @@
 
-const compare = document.getElementById("#div-compare");
-const original = document.getElementById("#div-original");
+const compare = document.getElementById("div-compare");
+const original = document.getElementById("div-original");
 
-const originalHide = document.getElementById("#button-original");
-const compareHide = document.getElementById("#button-original");
+const originalHide = document.getElementById("button-original");
+const compareHide = document.getElementById("button-original");
 
 function originalFunc() {
 
