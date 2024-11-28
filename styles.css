@@ -35,4 +35,5 @@ textarea {
   top: 90vh;
   display: flex;
   width: 200px;
+  gap: 40px;
 }
