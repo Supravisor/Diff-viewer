@@ -29,3 +29,11 @@ textarea {
 #div-original, #original {
   background: transparent;
 }
+
+#buttons {
+  position: absolute;
+  top: 90vh;
+  display: flex;
+  width: 200px;
+  gap: 40px;
+}
