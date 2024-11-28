@@ -29,3 +29,9 @@ textarea {
 #div-original, #original {
   background: transparent;
 }
+
+
+#aside {
+  position: absolute;
+  top: 90vh;
+}
