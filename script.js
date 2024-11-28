@@ -13,8 +13,22 @@ function originalFunc() {
        }
 
   else {
-    originalHide.innerText = "Hide Original";
     original.style.display = "unset";
+    originalHide.innerText = "Hide Original";
+       }
+
+}
+
+function compareFunc() {
+
+  if (compareHide.innerText === "Hide Compare") {
+    compare.style.display = "none";
+    compareHide.innerText = "Show Compare";
+       }
+
+  else {
+    compare.style.display = "unset";
+    compareHide.innerText = "Hide Compare";
        }
 
 }
