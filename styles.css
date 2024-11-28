@@ -8,12 +8,12 @@ textarea {
 }
 
 #div-compare, #div-original {
-  width: 90vw;
   position: absolute;
   top: 4em;
 }
 
 #compare, #original {
+  width: 90vw;
   font-size: 1.5em;
   padding: 20px;
 }
