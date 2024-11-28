@@ -5,7 +5,7 @@ const original = document.getElementById("#div-original");
 const originalHide = document.getElementById("#original-button");
 const compareHide = document.getElementById("#compare-button");
 
-function original() {
+function originalFunc() {
 
   if (originalHide.innerText === "Hide Original") {
     original.style.display = "none";
