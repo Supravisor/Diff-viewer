@@ -13,7 +13,7 @@ textarea {
 }
 
 #compare, #original {
-  width: 96vw;
+  width: calc(100vw - 3em);
   font-size: 1.5em;
   padding: 20px;
 }
