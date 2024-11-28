@@ -33,4 +33,6 @@ textarea {
 #buttons {
   position: absolute;
   top: 90vh;
+  display: flex;
+  width: 200px;
 }
