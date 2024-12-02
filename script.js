@@ -10,6 +10,7 @@ function originalFunc() {
   if (originalHide.innerText === "Hide Original") {
     original.style.display = "none";
     originalHide.innerText = "Show Original";
+    originalHide.style.background = "Blue";
        }
 
   else {
