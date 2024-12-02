@@ -16,6 +16,7 @@ function originalFunc() {
   else {
     original.style.display = "unset";
     originalHide.innerText = "Hide Original";
+    originalHide.style.background = "SkyBlue";
        }
 
 }
