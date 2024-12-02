@@ -3,10 +3,6 @@ body {
   font-family: Arial;
 }
 
-textarea {
-  height: 40vh;
-}
-
 #div-compare, #div-original {
   position: absolute;
   top: 4em;
@@ -18,8 +14,9 @@ textarea {
 }
 
 #div-original {
-  border: 5px solid rgba(0, 0, 255, 0.8);
+  border: 5px solid rgba(0, 0, 255, 0.75);
 }
+
 #compare, #original {
   width: calc(100vw - 3em);
   font-size: 1.5em;
@@ -39,6 +36,7 @@ textarea {
 }
 
 textarea {
+  height: 40vh;
   border: none;
 }
 
