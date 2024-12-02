@@ -32,6 +32,7 @@ function compareFunc() {
   else {
     compare.style.display = "unset";
     compareHide.innerText = "Hide Compare";
+    compareHide.style.background = "Pink";
        }
 
 }
