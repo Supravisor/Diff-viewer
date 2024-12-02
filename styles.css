@@ -38,6 +38,10 @@ textarea {
   background: transparent;
 }
 
+textarea {
+  border: none;
+}
+
 #buttons {
   position: absolute;
   top: 90vh;
