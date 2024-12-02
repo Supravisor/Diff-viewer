@@ -10,6 +10,7 @@ textarea {
 #div-compare, #div-original {
   position: absolute;
   top: 4em;
+  border-radius: 7px;
 }
 
 #div-compare {
