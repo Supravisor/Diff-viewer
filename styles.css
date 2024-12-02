@@ -47,3 +47,8 @@ textarea {
   width: 200px;
   gap: 40px;
 }
+
+
+button {
+  font-size: 1.2em;
+}
