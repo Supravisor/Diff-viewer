@@ -26,6 +26,7 @@ function compareFunc() {
   if (compareHide.innerText === "Hide Compare") {
     compare.style.display = "none";
     compareHide.innerText = "Show Compare";
+    compareHide.style.background = "Red";
        }
 
   else {
