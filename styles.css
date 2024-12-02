@@ -47,3 +47,18 @@ textarea {
   width: 200px;
   gap: 40px;
 }
+
+
+button {
+  font-size: 1.2em;
+  border-radius: 7px;
+  padding: 5px;
+}
+
+#button-original {
+  background: SkyBlue;
+}
+
+#button-compare {
+  background: Pink;
+}
