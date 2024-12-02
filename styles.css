@@ -3,17 +3,22 @@ body {
   font-family: Arial;
 }
 
-textarea {
-  height: 40vh;
-}
-
 #div-compare, #div-original {
   position: absolute;
   top: 4em;
+  border-radius: 7px;
+}
+
+#div-compare {
+  border: 5px solid rgba(255, 0, 0, 0.8);
+}
+
+#div-original {
+  border: 5px solid rgba(0, 0, 255, 0.75);
 }
 
 #compare, #original {
-  width: calc(100vw - 3em);
+  width: calc(100vw - 3em - 10px);
   font-size: 1.5em;
   padding: 20px;
 }
@@ -23,11 +28,16 @@ textarea {
 }
 
 #original {
-  color: rgb(0, 0, 255, 0.75);
+  color: rgba(0, 0, 255, 0.75);
 }
 
 #div-original, #original {
   background: transparent;
+}
+
+textarea {
+  height: 40vh;
+  border: none;
 }
 
 #buttons {
