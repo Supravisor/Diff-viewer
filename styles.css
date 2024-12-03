@@ -35,11 +35,6 @@ body {
   background: transparent;
 }
 
-textarea {
-  height: calc(80vh - 70px);
-  border: none;
-}
-
 #buttons {
   position: absolute;
   top: 90vh;
@@ -47,7 +42,6 @@ textarea {
   width: 200px;
   gap: 40px;
 }
-
 
 button {
   font-size: 1.2em;
@@ -61,4 +55,13 @@ button {
 
 #button-compare {
   background: Pink;
+}
+
+@media (min-height: 700px) {
+
+  textarea {
+    height: calc(80vh - 70px);
+    border: none;
+  }
+
 }
