@@ -36,7 +36,7 @@ body {
 }
 
 textarea {
-  height: 40vh;
+  height: calc(80vh - 70px);
   border: none;
 }
 
