@@ -57,7 +57,11 @@ button {
   background: Pink;
 }
 
-@media (min-height: 700px) {
+textarea {
+  border: none;
+}
+
+@media (min-height: 650px) {
 
   textarea {
     height: calc(80vh - 70px);
