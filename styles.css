@@ -62,7 +62,7 @@ textarea {
 @media (min-height: 100px) {
 
   #div-compare, #div-original {
-    top: calc(5em + 60px);
+    top: calc(6em + 60px);
   }
 
   textarea {
