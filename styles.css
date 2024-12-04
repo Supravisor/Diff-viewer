@@ -72,7 +72,7 @@ textarea {
 @media (min-height: 650px) {
 
   textarea {
-    height: calc(100vh - 10em);
+    height: calc(100vh - 11em);
   }
 
 }
