@@ -5,7 +5,6 @@ body {
 
 #div-compare, #div-original {
   position: absolute;
-  top: 4em;
   border-radius: 7px;
 }
 
@@ -18,7 +17,6 @@ body {
 }
 
 #compare, #original {
-  width: calc(100vw - 3em - 10px);
   font-size: 1.5em;
   padding: 20px;
 }
@@ -35,19 +33,13 @@ body {
   background: transparent;
 }
 
-textarea {
-  height: 40vh;
-  border: none;
-}
-
 #buttons {
   position: absolute;
-  top: 90vh;
   display: flex;
+  height: 60px;
   width: 200px;
   gap: 40px;
 }
-
 
 button {
   font-size: 1.2em;
@@ -61,4 +53,38 @@ button {
 
 #button-compare {
   background: Pink;
+}
+
+textarea {
+  border: none;
+}
+
+@media (min-height: 100px) {
+
+  #div-compare, #div-original {
+    top: calc(6em + 50px);
+  }
+
+  textarea {
+    width: calc(100vw - 4em - 10px);
+    height: 100vh;
+  }
+
+}
+
+@media (min-height: 650px) {
+
+  #div-compare, #div-original {
+    top: 4em;
+  }
+
+  textarea {
+    width: calc(100vw - 3em - 10px);
+    height: calc(100vh - 11em);
+  }
+
+  #buttons {
+    bottom: 1em;    
+  }
+
 }
