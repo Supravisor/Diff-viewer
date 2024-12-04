@@ -56,24 +56,20 @@ button {
 }
 
 textarea {
-  width: calc(100vw - 3em - 10px);
   border: none;
 }
 
 @media (min-height: 100px) {
 
   #div-compare, #div-original {
-    top: calc(4em + 60px);
+    top: calc(5em + 60px);
   }
 
   textarea {
+    width: calc(100vw - 4em - 10px);
     height: 100vh;
   }
 
-  #buttons {
-
-  }
-  
 }
 
 @media (min-height: 650px) {
@@ -83,6 +79,7 @@ textarea {
   }
 
   textarea {
+    width: calc(100vw - 3em - 10px);
     height: calc(100vh - 11em);
   }
 
