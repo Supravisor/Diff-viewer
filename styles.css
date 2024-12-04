@@ -5,7 +5,6 @@ body {
 
 #div-compare, #div-original {
   position: absolute;
-  top: 4em;
   border-radius: 7px;
 }
 
@@ -63,8 +62,12 @@ textarea {
 
 @media (min-height: 100px) {
 
+  #div-compare, #div-original {
+    top: calc(4em + 60px);
+  }
+
   textarea {
-    height: 600px;
+    height: 100vh;
   }
 
   #buttons {
@@ -74,6 +77,10 @@ textarea {
 }
 
 @media (min-height: 650px) {
+
+  #div-compare, #div-original {
+    top: 4em;
+  }
 
   textarea {
     height: calc(100vh - 11em);
