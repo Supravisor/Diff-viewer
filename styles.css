@@ -62,11 +62,11 @@ textarea {
 }
 
 @media (min-height: 100px) {
-
+/*
   textarea {
     height: calc(60vh - 70px);
   }
-
+*/
 }
 
 @media (min-height: 650px) {
