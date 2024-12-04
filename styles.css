@@ -36,7 +36,6 @@ body {
 
 #buttons {
   position: absolute;
-  bottom: 1em;
   display: flex;
   width: 200px;
   gap: 40px;
@@ -68,7 +67,7 @@ textarea {
   }
 
   #buttons {
-    top: 600px;
+    top: 650px;
   }
   
 }
@@ -77,6 +76,10 @@ textarea {
 
   textarea {
     height: calc(100vh - 11em);
+  }
+
+  #buttons {
+    bottom: 1em;    
   }
 
 }
