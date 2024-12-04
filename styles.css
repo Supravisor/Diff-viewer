@@ -62,11 +62,15 @@ textarea {
 }
 
 @media (min-height: 100px) {
-/*
+
   textarea {
-    height: calc(60vh - 70px);
+    height: 600px;
   }
-*/
+
+  #buttons {
+    top: 600px;
+  }
+  
 }
 
 @media (min-height: 650px) {
