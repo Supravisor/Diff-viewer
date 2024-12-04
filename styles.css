@@ -37,6 +37,7 @@ body {
 #buttons {
   position: absolute;
   display: flex;
+  height: 60px;
   width: 200px;
   gap: 40px;
 }
