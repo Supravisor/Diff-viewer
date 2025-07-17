@@ -1,4 +1,4 @@
-This diff viewer overlays text and code so you can visualise similarities and differences between the two sets of data.
+This diff viewer overlays text and code so you can visualise the similarities and differences between the two sets.
 
 1. Enter the original code into first textarea element when the page loads.
 2. Click on the `Hide Original` button to toggle to the second textarea element.
